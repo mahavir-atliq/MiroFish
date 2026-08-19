@@ -4,7 +4,7 @@ services:
     environment:
       # Fix: Vite "Blocked request. This host is not allowed" error
       # Vite's built-in env var to allow additional hosts
-      - __VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS=.atliq.dpdns.org
+      - __VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS=.app1.atliq.com
 
       # LLM API Configuration
       - LLM_API_KEY=${LLM_API_KEY}
